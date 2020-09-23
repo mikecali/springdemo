@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SpringdemoController {
   @RequestMapping("/")
   public String index() {
-    return "Kamusta Telus! Ito ay Spring App na walang DB! :)";
+    return "Kamusta Telus! Ito ay Spring App na walang DB!";
   }
 }
